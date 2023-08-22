@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>loginregister2.0</title>
+</head>
+
+<body>
+
+    <div id="header">
+
+                                    <!-- button icon ainda melhorar-->
+        <div class="container">
+            <div class ="dark">
+                <!-- <img src="/loginAndRegister/images/darkmode.png" alt="Dark Mode">   -->
+        </div>
+    </header>
+
+
+        <he class="painel">   <!-- hero -->
+        <div class="form-box"> 
+        <div class="botao-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="entrar()">Entrar</button>
+        <button type="button" class="toggle-btn" onclick="registro()">Registro</button>
+    </div>
+
+    
+<div class="midias-sociais">
+    <a href="https://instagram.com/" target="_blank">
+    <img src="/images/instagram.png"></a>
+
+    <a href="https://twitter.com/" target="_blank">
+    <img src="/images/tw.png"></a>
+
+    <a href="https://google.com/" target="_blank">
+    <img src="/images/gp.png"></a>
+</div>
+
+
+
+    <form id="entrar" class="input-group">        <!--login-->
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <a class="forget" href="forget"><span>Esqueceu a senha?</span></a>
+        <button type="submit" class="submit-btn">Entrar</button>
+    </form>
+
+
+    <form id="registro" class="input-group2">       <!-- registro-->
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="chench-box" required><span>Estou de acordo com os termos & serviços</span>
+        <button type="submit" class="submit-btn">Registro</button>
+    </form>
+</div>
+</div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
